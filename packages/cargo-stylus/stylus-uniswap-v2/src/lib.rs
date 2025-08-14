@@ -52,7 +52,7 @@ impl UniswapV2Pair {
         Ok(amount)
     }
 
-    pub fn token0(&self) -> Result<Address, Vec<u8>> {
+    pub fn token0_js(&self) -> Result<Address, Vec<u8>> {
         Ok(self.token0.get())
     }
 
